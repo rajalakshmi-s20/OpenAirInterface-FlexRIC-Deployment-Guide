@@ -260,6 +260,8 @@ Explanation: Navigate to scripts, check script permissions, and make the multi-U
 # Launch UE1
 sudo ~/OAI/openairinterface5g/tools/scripts/multi-ue.sh -c1
 sudo ~/OAI/openairinterface5g/tools/scripts/multi-ue.sh -o1
+```
+```bash
 sudo ./nr-uesoftmodem \
   -r 106 --numerology 1 --band 78 -C 3619200000 \
   --rfsim \
@@ -284,6 +286,8 @@ Use similar commands updating the IMSI and RF simulator IP accordingly for each 
 # Launch UE2
 sudo ~/OAI/openairinterface5g/tools/scripts/multi-ue.sh -c2
 sudo ~/OAI/openairinterface5g/tools/scripts/multi-ue.sh -o2
+```
+```bash
 sudo ./nr-uesoftmodem \
   -r 106 --numerology 1 --band 78 -C 3619200000 \
   --rfsim \
@@ -295,6 +299,8 @@ sudo ./nr-uesoftmodem \
 # Launch UE3
 sudo ~/OAI/openairinterface5g/tools/scripts/multi-ue.sh -c3
 sudo ~/OAI/openairinterface5g/tools/scripts/multi-ue.sh -o3
+```
+```bash
 sudo ./nr-uesoftmodem \
   -r 106 --numerology 1 --band 78 -C 3619200000 \
   --rfsim \
