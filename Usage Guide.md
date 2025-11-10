@@ -4,6 +4,8 @@
 # Start OAI 5G Core
 cd ~/OAI/oai-cn5g
 docker compose up -d
+```
+```bash
 docker compose ps -a
 ```
 Explanation: Navigates to the OAI Core directory and starts all 5G core containers in the background. Displays the status of all containers to ensure they are running successfully.
